@@ -1,4 +1,4 @@
-git clone https://github.com/spring-projects/spring-petclinic.git
+git clone https://github.com/Hariinbox10/sprinbot-app.git
 cd spring-petclinic
 ./mvnw package
 java -jar target/*.jar
