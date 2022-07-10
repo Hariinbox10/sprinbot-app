@@ -2,9 +2,6 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:
-    - location: scripts/
-      timeout: 300
-      runas: root
     - location: scripts/start_server
       timeout: 300
       runas: root
